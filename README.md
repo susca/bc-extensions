@@ -74,7 +74,7 @@ Features
 
 **In scientific_constants.bc**
 
-**I particle masses **
+**I particle masses**
 
 1. mp: proton rest mass in kg
 2. mn: neutron rest mass in kg
@@ -110,3 +110,6 @@ Features
 23. g: acceleration due to gravity on surface of earth in m/s^2
 24. lambdac: compton wavelength of the electron m
 
+**in prime_numbers.bc**
+
+prime numbers from 0 - 821641, i.e. first 65536 primes
