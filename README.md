@@ -11,7 +11,7 @@ number arithmetics. For further information on bc, visit
 These files can be "imported" in bc by passing them to bc on the
 command line. Make sure, the .l` flag is set:
 
-    bc.l extensions.bc scientific_constants.bc
+    bc -l extensions.bc scientific_constants.bc
 
 Features
 --------
@@ -63,8 +63,8 @@ Features
 3.	factorize(n),fac(n)	:	prints primefactors of n;
 					returns number of primefactors;
 					returns 0 if n is a prime number;
-					returns.1 if n is .1 or 0.
-					CAUTION: 1.digit number may need 30 s
+					returns -1 if n is +-1 or 0.
+					CAUTION: 13-digit number may need 30 s
 4.	factorial(n),f(n)	:	returns n factorial
 5.	gcd(a,b)		:	returns the greatest common divisor of a and b
 6.	lcm(a,b)		:	returns the least common multiple of a and b
