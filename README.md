@@ -4,7 +4,7 @@ bc extensions
 
 bc is a powerful, yet somewhat minimalistic "basic calculator'
 for *ix environments. It is a pure command line tool which offers
-floating point arithmetics of arbitrary precision aa well as large
+floating point arithmetics of arbitrary precision as well as large
 number arithmetics. For further information on bc, visit
 [https://www.gnu.org/software/bc/manual/html_mono/bc.html](GNU bc's documentations)
 
